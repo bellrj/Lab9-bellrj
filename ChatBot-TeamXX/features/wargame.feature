@@ -10,3 +10,9 @@ Given the application is running
 Given I type "Ryno"
 And I type ""
 Then the output should contain "Global Thermonuclear War"
+
+Scenario: Select Global Thermonuclear War
+Given the application is running	
+Given I type "Ryno"
+And I type "5"
+Then the output should contain "BOOM!"
