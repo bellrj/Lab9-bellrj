@@ -16,3 +16,9 @@ Given the application is running
 Given I type "Ryno"
 And I type "5"
 Then the output should contain "BOOM!"
+
+Scenario: Select something other than Global Thermonuclear War
+Given the application is running	
+Given I type "Ryno"
+And I type "1"
+Then the output should contain "I refuse to play!"
